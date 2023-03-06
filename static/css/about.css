@@ -1,0 +1,48 @@
+.location-text, .vision-text, .mission-text{
+    width: 475px;
+    height: 292px;
+    line-height: 41px;
+    font-family: lbrite;
+    font-size: 24px;
+}
+@font-face{
+    src: url(fonts/LBRITE.TTF);
+    font-family:lbrite ;
+}
+.text-left, .text-last-left{
+   display: flex;
+   justify-content: space-between;  
+}
+.cafe-photo, .cafe-name,.cafe-table{
+   width: 473px;
+}
+.vision-text{
+    display: flex;
+    text-align: left;
+}
+.text-right{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row-reverse;
+}
+.history {
+    margin-top: 125px;
+    margin-bottom: 75px;
+}
+.vision{
+    margin-top: 90px;
+    margin-left:820px;
+}
+.mission{
+    margin-top: 165px;
+    margin-bottom: 64px;
+}
+.text-last-left{
+    margin-bottom: 133px;
+}
+.text-us,.location-text, .vision-text,.mission-text {
+    font-weight: var(--fw-normal);
+    color: var(--main-color);
+    font-family:lbrite;  
+}

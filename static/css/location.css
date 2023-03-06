@@ -1,0 +1,20 @@
+.adress-about,.time-about,.take-out-cafe{
+ display: grid;
+ gap:20px;
+}
+.time,.take-out {
+ font-weight: var(--fw-normal);
+ color: var(--main-color);
+ font-family:lbrite;
+}
+.cafe-location{
+ margin-top:120px ;
+ display: flex;
+ justify-content: space-around;
+}
+.map{
+ display: flex;
+ justify-content: center;
+ margin-top: 162px;
+ margin-bottom: 204px;
+}

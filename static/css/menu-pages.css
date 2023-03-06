@@ -1,0 +1,98 @@
+.menu {
+   display: flex;
+   gap: 60px;
+   align-items: center;
+   justify-content:center;
+   margin-top: 70px;
+   margin-bottom: 119px;
+}
+.cafe-menu{
+   color: #863503B2;
+   font-size: var(--size-24);
+   font-weight: var(--fw-bold); 
+}
+a:hover{
+   color: var(--main-color);
+}
+.active{
+   color: var(--main-color);
+}
+.food{
+   border-left:1px solid black;
+   padding-left: 30px;
+}
+.cold-drinks{
+    border-left:1px solid black;
+    display: flex;
+    padding-left: 27px;
+  }
+  
+/* hot-drinks */
+.coffee{
+    width:252px;
+    cursor: pointer;
+}
+.hot-coffee{
+    display: flex;
+    gap: 54px;
+    margin-bottom: 79px;
+}
+.price{
+    margin-top: 25px;
+    color:var(--input-color) ;
+}
+.name{
+    color: var(--title-color);
+    font-weight: var(--fw-bold);
+}
+.menu-hot-drinks{
+    display: flex;
+    gap: 200px;
+    margin-bottom: 192px;
+}
+/* cold-drinks */
+.drinks{
+    width:252px;
+    cursor: pointer;
+}
+.iced-drinks{
+    display: flex;
+    gap: 54px;
+    margin-bottom: 79px;
+}
+.price{
+    margin-top: 25px;
+    color:var(--input-color) ;
+}
+.name{
+    color: var(--title-color);
+    font-weight: var(--fw-bold);
+}
+.menu-cold-drinks{
+    display: flex;
+    gap: 200px;
+    margin-bottom: 192px;
+}
+/* food */
+.meal{
+    width:252px;
+    cursor: pointer;
+}
+.different-meal{
+    display: flex;
+    gap: 54px;
+    margin-bottom: 79px;
+}
+.price{
+    margin-top: 25px;
+    color:var(--input-color) ;
+}
+.name{
+    color: var(--title-color);
+    font-weight: var(--fw-bold);
+}
+.menu-meal{
+    display: flex;
+    gap: 200px;
+    margin-bottom: 192px;
+}

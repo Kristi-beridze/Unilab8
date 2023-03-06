@@ -1,0 +1,207 @@
+:root {
+    --main-color: #863503;
+    --title-color: #05520D;
+    --input-color: #7D0202;
+    --size-24: 24px;
+    --size-28: 28px;
+    --fw-bold: 600;
+    --fw-normal:400;
+}
+.active-nav {
+    border-bottom: 1px solid #056B11;
+}
+.page-title {
+    font-size: var(--size-28);
+    color: var(--title-color);
+    font-weight: var(--fw-bold);
+    text-transform: capitalize;
+}
+.text-center {
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.container {
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+}
+nav {
+    padding: 30px 0;
+}
+ul {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+li:nth-child(4) {
+    margin-left: 160px;
+}
+header a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--main-color);
+    font-size: var(--size-24);
+    font-weight: var(--fw-bold);
+}
+header form input {
+    background-color: rgba(210, 158, 126, 0.1);
+    border-radius: 7px;
+    padding: 10px 11px;
+}
+header form {
+    position: relative;
+}
+header form button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+header li {
+    padding-bottom: 14px;
+}
+header li:not(:nth-child(4)):hover {
+    border-bottom: 1px solid #056B11;
+}
+
+.contact-page-title p {
+    color: var(--main-color);
+    margin-top: 30px;
+}
+/* footer */
+.footer{
+    background-color:rgba(183, 138, 109, 0.24); 
+    width: 100%; 
+    height: 257px;
+}
+.contact-information{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-icon{
+    margin-top: 103px;
+}
+.social-img{
+    margin-right: 35px;
+}
+.social-icon-text{
+   font-weight: var(--fw-normal);
+   color:#400404 ;
+   margin-top: 67px;
+   line-height: 28px;
+}
+.adress, .text-us-now{
+   display: grid;
+   gap:28px
+}
+.location-cafe, .text-us{
+   font-weight: var(--fw-normal);
+   color: var(--main-color);
+   font-family:lbrite;
+}
+.text-us-different{
+    font-weight: var(--fw-bold);
+    color: var(--main-color);
+}
+.contactus, .find-us{
+   margin-top: 36px;
+   margin-bottom:45px ;
+   color: var(--title-color);
+}
+/* home */
+.home-coffee{
+    background-color:rgba(134, 53, 3, 0.07); ;
+    position: absolute;
+    width: 100%;
+    height: 800px;
+}
+.daily-coffee{
+    color: var(--main-color);
+    font-weight: var(--fw-bold);
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    width: 542px;
+}
+.small-text{
+    font-weight: var(--fw-normal);
+    color: var(--main-color);
+    font-size: 24px;
+    line-height: 28px;
+    width: 557px;
+    height: 196px 
+}
+h4{
+    margin-top:70px ;
+}
+.two-coffee-glass{
+    display: flex;
+    vertical-align: top;
+}
+.title-logo-picture{
+    display: flex;
+    justify-content: space-between;
+}
+.todays-special{
+   padding-top: 902px;
+   color: var(--main-color);
+   font-weight: var(--fw-bold);
+   font-size: 32px;
+   line-height: 38px;
+   border-bottom:1.5px solid #056B11;
+   width: 264px ; 
+}
+.hot-cold-drink{
+    display: flex;
+    justify-content: space-between;
+    margin-top:89px;
+    margin-bottom: 310px;
+}
+.price{
+    font-weight:var(--fw-bold);
+    color:#7D0202 ;
+}
+.name{
+   color:#05520D ;
+   font-weight:var(--fw-bold);
+}
+.todays-text{
+    display: flex;
+    gap: 33px;
+    margin-top: 23px;
+}
+.Hot-Cocoa-Malts,.Iced-Cocoa-Malts, .Caramel-Latte {
+    cursor: pointer; 
+}
+.Hot-Cocoa-Malts:hover{
+    background-image: url(../img-home/todays-special-hover/back-image-Hot-Cocoa-Malts.png);
+    transform: scale(1.1);
+}
+.Iced-Cocoa-Malts:hover{
+    background-image: url(../img-home/todays-special-hover/back-image-Iced-Cocoa-Malts.png);
+    transform: scale(1.1);
+}
+.Caramel-Latte:hover{
+    background-image: url(../img-home/todays-special-hover/back-image-Caramel-Latte.png);
+    transform: scale(1.1);
+}
+
+.submit-button {
+    justify-self: end;
+    grid-column: 2/3;
+    box-sizing: border-box;
+    border: 2px solid #05520D;
+    border-radius: 43px;
+    width: 149px;
+    padding: 10px;
+    cursor: pointer;
+}
+.submit-button:hover{
+    background-color: var(--title-color);
+}
+.more-option{
+    margin-top: 109px;
+}

@@ -1,0 +1,50 @@
+
+.contact-page-title {
+    margin-bottom: 100px;
+}
+
+.form-wrapper input,
+.form-wrapper textarea {
+
+    border-radius: 20px;
+    border: 1px solid var(--main-color);
+    padding: 20px 40px;
+}
+
+.form-wrapper input::placeholder,
+.form-wrapper textarea::placeholder {
+    color: var(--input-color);
+}
+
+.form-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.form-wrapper textarea {
+    grid-column: 1/3;
+    resize: none;
+}
+
+.submit-button {
+    justify-self: end;
+    grid-column: 2/3;
+    box-sizing: border-box;
+    border: 2px solid #05520D;
+    border-radius: 43px;
+    width: 149px;
+    padding: 10px;
+    margin-bottom: 233px;
+}
+.submit-button:hover{
+    background-color: var(--title-color);
+}
+.required{
+    justify-self: end;
+    grid-column: 2/3;
+    color: var(--input-color);
+}
+.required span{
+    color:#FF0000 ;
+}
